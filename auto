@@ -1,0 +1,7 @@
+#!/bin/bash
+./change.sh $1
+./add.sh $1
+./commit.sh $1
+git status --short
+git show $1
+cat $1
